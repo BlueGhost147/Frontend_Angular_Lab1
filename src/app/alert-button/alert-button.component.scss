@@ -1,0 +1,20 @@
+
+$primary : #FFFFFF;
+$primaryHover : #000000;
+$primaryBg : #000000;
+$primaryBgHover : #FFFFFF;
+
+.alert-button__button
+{
+  margin: 10px;
+  color: $primary;
+  background-color: $primaryBg;
+  border-color: $primary;
+}
+
+.alert-button__button:hover
+{
+  color: $primaryHover;
+  background-color: $primaryBgHover;
+  border-color: $primaryHover;
+}
